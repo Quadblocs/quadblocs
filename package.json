@@ -1,0 +1,66 @@
+{
+  "name": "joshbuilds",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "babelMacros": {
+    "twin": {
+      "preset": "emotion"
+    }
+  },
+  "dependencies": {
+    "@emotion/css": "^11.1.3",
+    "@emotion/react": "^11.4.1",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "@headlessui/react": "^1.4.1",
+    "@heroicons/react": "^1.0.4",
+    "@tailwindcss/forms": "^0.3.3",
+    "devicon": "^2.14.0",
+    "next": "11.1.0",
+    "next-themes": "^0.0.15",
+    "particles.js": "^2.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-flow-renderer": "^9.6.7",
+    "simplebar-react": "^2.3.6"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "^11.3.0",
+    "@types/react": "^17.0.20",
+    "@types/tailwindcss": "^2.2.1",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "add": "^2.0.6",
+    "autoprefixer": "^10.3.3",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-macros": "^3.1.0",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.7.2",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "postcss": "^8.3.6",
+    "prettier": "^2.4.0",
+    "react-is": "^17.0.2",
+    "tailwindcss": "^2.2.15",
+    "twin.macro": "^2.7.0",
+    "typescript": "4.4.2",
+    "yarn": "^1.22.11"
+  }
+}

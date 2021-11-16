@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.simplebar-track {
+  @apply !w-3;
+}
+
+.simplebar-scrollbar:before {
+  @apply bg-black;
+}
+
+@layer base {
+  /* Slick Fits */
+  @font-face {
+    font-family: 'radnika_next';
+    src: url('/static/radnikanext-medium-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'source_code_pro';
+    src: url('/static/SourceCodePro-SemiBold.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'rubik';
+    src: url('/static/Rubik-VariableFont_wght.ttf') format('truetype');
+  }
+}
